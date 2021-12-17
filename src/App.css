@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+body{
+    background-color: #222323;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card{
+    background-color: #0b0b0b;
+    margin: auto;
+    width: 35%;
+    height: 400px;
+    margin-top: 113px;
+    padding: 5%;
+    border-radius: 10px;
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card img{
+    height: 33%;
+    position: relative;
+    top: -30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card input.placeicon{
+    background: white;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 7px auto;
+    height: 20px;
+    width: 100%;
+    font-size: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.card button.btn{
+    background-color: #348d34 !important;
+    border-radius: 7px;
+    padding: 5px;
+    margin: 7px auto;
+    height: 45px;
+    width: 102%;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(53, 50, 50);
+  font-weight: 500;
+  padding: 10px 20px;
+  font-size: 15px;
+  text-align: justify;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.forgot-password{
+    color: #bfbfbf;
+    font-size: 10px;
+    font-weight: 500;
+    text-decoration: underline;
 }
